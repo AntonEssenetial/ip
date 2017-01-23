@@ -1887,3 +1887,8 @@ body
 {
     font-family: 'Pt sans', sans-serif;
 }
+
+.main-menu__sub-menu
+{
+    display: none;
+}
