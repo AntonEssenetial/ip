@@ -1,0 +1,367 @@
+{
+	"breadCrumbs": {
+		"default": [
+			{
+				"type": "link",
+				"title": "Home"
+			},
+			{
+				"type": "link",
+				"title": "Category"
+			},
+			{
+				"type": "link",
+				"title": "Subcategory"
+			},
+			{
+				"title": "Page"
+			}
+		]
+	},
+	"pageList": {
+		"data": [
+			{
+				"title": "Главная",
+				"url": "home"
+			},
+			{
+				"title": "Страница записи",
+				"url": "single-page"
+			},
+			{
+				"title": "Контаткы",
+				"url": "conctacts"
+			}
+		]
+	},
+	"footerNav": {
+		"default": [
+			{
+				"title": "Главная",
+				"url": "index.html"
+			},
+			{
+				"title": "Контаткы",
+				"url": "contacts.html"
+			}
+		]
+	},
+	"config": {
+		"projectName": "Ассоциация предпринимателей",
+		"lang": "en",
+		"path": {
+			"favicons": "assets/favicons",
+			"styles": "assets/css",
+			"scripts": "assets/javascripts",
+			"images": "assets/images",
+			"fonts": "assets/fonts"
+		}
+	},
+	"head": {
+		"default": {
+			"title": "Default title",
+			"mobile": true,
+			"meta": {
+				"author": "Murat Khatypov",
+				"description": "Put value here",
+				"keywords": "Put value here"
+			},
+			"og": {
+				"url": "https://github.com/AntonEssenetial",
+				"description": "Description",
+				"image": {
+					"path": "assets/images/content/preview.png",
+					"type": "image/png",
+					"width": 500,
+					"height": 300
+				}
+			}
+		},
+		"index": {
+			"title": "Список",
+			"mobile": false,
+			"meta": false,
+			"og": false
+		},
+		"home": {
+			"title": "Главная",
+			"mobile": true,
+			"meta": "default",
+			"og": "default"
+		}
+	},
+	"mainMenu": {
+		"default": [
+			{
+				"title": "Typography",
+				"url": "#typography",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "#single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "#single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "#single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "#single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "#single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "#single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "#single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "#single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "#single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "#single-page"
+					}
+				]
+			},
+			{
+				"title": "Forms",
+				"url": "#forms",
+				"submenu": [
+					{
+						"title": "Ассоциации",
+						"url": "#single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "#single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "#single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "#single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "#single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "#single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "#single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "#single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "#single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "#single-page"
+					}
+				]
+			},
+			{
+				"title": "Buttons",
+				"url": "#buttons",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "#single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "#single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "#single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "#single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "#single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "#single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "#single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "#single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "#single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "#single-page"
+					}
+				]
+			},
+			{
+				"title": "Components",
+				"url": "#components",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "#single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "#single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "#single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "#single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "#single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "#single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "#single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "#single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "#single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "#single-page"
+					}
+				]
+			},
+			{
+				"title": "Grid",
+				"url": "#grid",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "#single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "#single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "#single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "#single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "#single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "#single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "#single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "#single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "#single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "#single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "#single-page"
+					}
+				]
+			}
+		]
+	}
+}

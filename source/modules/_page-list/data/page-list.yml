@@ -1,0 +1,11 @@
+pageList:
+  data:
+    -
+      title: Главная
+      url: home
+    - 
+      title: Страница записи
+      url: single-page
+    - 
+      title: Контаткы
+      url: conctacts

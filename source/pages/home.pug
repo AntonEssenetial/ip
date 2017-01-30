@@ -1,0 +1,29 @@
+include ../modules/injected/injected
+include ../modules/page/page
+
+include ../modules/head/head
+include ../modules/footer/footer
+include ../modules/header/header
+
+//- include ../modules/sidebar/sidebar
+include ../modules/page-title/page-title
+
+- var pageId = 0;
+
+doctype html
+html(lang=config.lang)
+
+  head
+    +head(head.home)
+
+  +page()
+    +inject('header')
+      +header()
+
+    +inject('main')
+      //- +page-title({"title": "Главная"})
+
+    +inject('footer')
+      +footer()
+
+

@@ -1,0 +1,7 @@
+include ../footer-nav/footer-nav
+
+mixin footer(data)
+  footer.footer&attributes(attributes)
+    .container
+      +footer-nav(footerNav.default)
+      p new footer call

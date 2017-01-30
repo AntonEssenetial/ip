@@ -1,0 +1,29 @@
+---
+  head:
+    default:
+      title: Default title
+      mobile: true
+      meta:
+        author: Murat Khatypov
+        description: Put value here
+        keywords: Put value here
+      og:
+        url: https://github.com/AntonEssenetial
+        description: Description
+        image:
+          path: assets/images/content/preview.png
+          type: image/png
+          width: 500
+          height: 300
+
+    index:
+      title: Список
+      mobile: false
+      meta: false
+      og: false
+
+    home:
+      title: Главная
+      mobile: true
+      meta: default
+      og: default

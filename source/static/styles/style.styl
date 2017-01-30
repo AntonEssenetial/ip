@@ -1,0 +1,20 @@
+@import '_plugins'
+// Nib
+@import nib
+// Import components: reset - mixins - sprite generators
+@import '_components'
+// Variables styles
+@import '_variables'
+// Png sprites
+@import '../../../tmp/sprite.styl' if file-exists('../../../tmp/sprite.styl')
+// Modules
+@import '../../modules/**/!(_)*.styl'
+// Sprite imports
+@import 'clasesSprite'
+// Media query
+@import '_media'
+
+
+body 
+  font-family 'proxima_nova_rgregular'
+  background: white

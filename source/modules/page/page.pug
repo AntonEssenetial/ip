@@ -1,0 +1,27 @@
+include ../injected/injected
+include ../head/head
+include ../scripts/scripts
+include ../../helpers/variables
+
+
+mixin page(data) 
+    body.page&attributes(attributes)
+      
+      +injected: block
+
+      .page__content
+        .page__wrapper
+          +if('header')
+            +use('header')
+
+          +if('main')
+            section.page__main
+              +use('main')
+
+        +if('footer')
+          .page__footer
+            +use('footer')
+  
+      +scripts()
+      //- +popup()
+      //- +notification()

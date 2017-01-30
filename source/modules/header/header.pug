@@ -1,0 +1,22 @@
+include ../main-menu/main-menu
+include ../header-search/header-search
+
+mixin header(data)
+  header.header&attributes(attributes)
+    .header__top
+    .header__bottom.header__bottom_soft
+      .container
+        .row 
+          .header__bottom__left-col.static
+            .header__bottom__logo
+              a(href="").header-logo
+                img(src="assets/images/background/logo.jpg", alt="")
+          .header__bottom__right-col.auto__width
+            .row.end
+              .header__bottom__sing-in
+                a(href="").button.button_white Вступить в АПРКС
+            .row.between.header__bottom__row.center
+              .header__bottom__main-menu
+                +main-menu(mainMenu.default)
+              .header__bottom__search
+                +header-search()

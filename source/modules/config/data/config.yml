@@ -1,0 +1,10 @@
+---
+  config:
+    projectName: Ассоциация предпринимателей
+    lang: en
+    path:
+      favicons: assets/favicons
+      styles: assets/css
+      scripts: assets/javascripts
+      images: assets/images
+      fonts: assets/fonts

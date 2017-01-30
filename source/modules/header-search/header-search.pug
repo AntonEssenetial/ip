@@ -1,0 +1,11 @@
+include ../modals/modals
+
+mixin header-search(data)
+  .header-search&attributes(attributes)
+    button.header-search__icon(data-remodal-target='modal1')
+    +modal({"id": "modal1", "close": false,})(class='modal_90')
+      .header-search__form
+        form(action="")
+          .row
+            input(type="text", placeholder='Поиск').form__input
+            input(type="submit" value='').input__submit

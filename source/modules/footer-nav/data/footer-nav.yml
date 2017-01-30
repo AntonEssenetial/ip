@@ -1,0 +1,10 @@
+---
+  footerNav:
+    default:
+      -
+        title: 'Главная'
+        url: 'index.html'
+      - 
+        title: 'Контаткы'
+        url: 'contacts.html'
+      

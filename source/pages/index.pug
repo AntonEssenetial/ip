@@ -1,0 +1,9 @@
+include ../modules/head/head
+include ../modules/_page-list/_page-list
+
+doctype html
+html(class="no-js" lang=config.lang)
+
+
+  body.page
+    +page-list(pageList.data)
