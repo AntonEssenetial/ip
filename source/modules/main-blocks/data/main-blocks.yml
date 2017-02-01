@@ -1,0 +1,21 @@
+---
+  mainBlocks:
+    default:
+      -
+        title: Форум - финансовый гений
+        src: assets/images/add/1.jpg
+      - 
+        title: Твой Звук - магазин музыкального оборудования
+        src: assets/images/add/2.jpg
+      - 
+        title: Maximum - ремонт телефонов
+        src: assets/images/add/3.jpg
+      - 
+        title: Antonio Shoes - Индивидуальный пошив обуви
+        src: assets/images/add/4.jpg
+      -
+        title: Чайный Лист - магазин чая
+        src: assets/images/add/5.jpg
+      - 
+        title: Нака суши - Доставка суши в крыму
+        src: assets/images/add/6.jpg

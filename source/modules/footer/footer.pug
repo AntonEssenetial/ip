@@ -1,7 +1,41 @@
 include ../footer-nav/footer-nav
+include ../footer-checkbox/footer-checkbox
 
 mixin footer(data)
   footer.footer&attributes(attributes)
-    .container
-      +footer-nav(footerNav.default)
-      p new footer call
+    .footer__top
+      .container
+        .row
+          .footer__top__left.static.col_margin
+            img(src="assets/images/background/ipad.png", alt="")
+          .footer__top__right.width__auto
+            span.footer__subscribe ПОДПИСКА НА НОВОСТНУЮ РАССЫЛКУ
+            form(action="")
+              .row
+                input(type="text", placeholder='Введите свой e-mail').form__input.form__input_subscibe
+                input(type="submit", value='').form__input.form__input__submit
+              +footer-checkbox(footerNav.default)
+            span.footer__top__right__span Подпишитесь прямо сейчас и получите: актуальную информацию о специальных акциях и предложениях, самые свежие новости о правовой информации, а также о ближайших мероприятиях.
+    .footer__menu
+      .container
+        +footer-nav(footerNav.default)
+    .footer__bottom
+      .container
+        .row 
+          .footer__bottom__left.col__60
+            .row.center
+              a(href="").footer__bottom__link Регистрация
+              a(href="").footer__bottom__link Обратная связь
+              .footer__bottom__link Горячая линия 
+                span 8 (800) 800 00 00
+            .footer__copy ©2017 Все права защищены. <br> Любое копирование информации, автором которой является APRKC.UA , без указания источника и автора запрещено! Копирование дизайна, скриптов, любого оформление влечет за собой нарушение авторских прав.
+          .footer__bottom__right.col__40.row.column
+            .row.end.footer__bottom__soc
+              a(href="").footer__bottom__soc-link.vk
+              a(href="").footer__bottom__soc-link.fb
+              a(href="").footer__bottom__soc-link.tw
+            span Разработано командой 
+              a(href="http://new-level.by/").footer__bottom__link NEW LEVEL
+    .footer__up
+      a(href="").footer__up__link 
+        img(src="assets/images/background/up.png", alt="")

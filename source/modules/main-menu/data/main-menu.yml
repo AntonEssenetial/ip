@@ -2,202 +2,246 @@
   mainMenu:
     default:
       -
-        title: "Typography"
+        title: "Новости"
         url: "#typography"
         submenu:
           -
             title: "Об Ассоциации"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Документы"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Структура АПРКС"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководство"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Председатель правления"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Генеральный директор"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Правление"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Заместители председателя"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Исполнительная дирекция"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководители структурных подразделений"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Комитеты"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Филиалы"
-            url: "#single-page"
+            url: "single-page"
       -
-        title: "Forms"
+        title: "Мероприятия"
         url: "#forms"
         submenu:
           -
             title: "Ассоциации"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Документы"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Структура АПРКС"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководство"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Председатель правления"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Генеральный директор"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Правление"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Заместители председателя"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Исполнительная дирекция"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководители структурных подразделений"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Комитеты"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Филиалы"
-            url: "#single-page"
+            url: "single-page"
       -
-        title: "Buttons"
+        title: "Правовая информаци"
         url: "#buttons"
         submenu:
           -
             title: "Об Ассоциации"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Документы"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Структура АПРКС"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководство"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Председатель правления"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Генеральный директор"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Правление"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Заместители председателя"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Исполнительная дирекция"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководители структурных подразделений"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Комитеты"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Филиалы"
-            url: "#single-page"
+            url: "single-page"
       -
-        title: "Components"
+        title: "Об Ассоциации"
         url: "#components"
         submenu:
           -
             title: "Об Ассоциации"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Документы"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Структура АПРКС"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководство"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Председатель правления"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Генеральный директор"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Правление"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Заместители председателя"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Исполнительная дирекция"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководители структурных подразделений"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Комитеты"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Филиалы"
-            url: "#single-page"
+            url: "single-page"
       -
-        title: "Grid"
+        title: "Медиа"
         url: "#grid"
         submenu:
           -
             title: "Об Ассоциации"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Документы"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Структура АПРКС"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководство"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Председатель правления"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Генеральный директор"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Правление"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Заместители председателя"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Исполнительная дирекция"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Руководители структурных подразделений"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Комитеты"
-            url: "#single-page"
+            url: "single-page"
           -
             title: "Филиалы"
-            url: "#single-page"
+            url: "single-page"
+      -
+        title: "Сервисы"
+        url: "#grid"
+        submenu:
+          -
+            title: "Об Ассоциации"
+            url: "single-page"
+          -
+            title: "Документы"
+            url: "single-page"
+          -
+            title: "Структура АПРКС"
+            url: "single-page"
+          -
+            title: "Руководство"
+            url: "single-page"
+          -
+            title: "Председатель правления"
+            url: "single-page"
+          -
+            title: "Генеральный директор"
+            url: "single-page"
+          -
+            title: "Правление"
+            url: "single-page"
+          -
+            title: "Заместители председателя"
+            url: "single-page"
+          -
+            title: "Исполнительная дирекция"
+            url: "single-page"
+          -
+            title: "Руководители структурных подразделений"
+            url: "single-page"
+          -
+            title: "Комитеты"
+            url: "single-page"
+          -
+            title: "Филиалы"
+            url: "single-page"
+      - 
+        title: Сообщество
+        url: 'test'
+        submenu: flase

@@ -1,0 +1,64 @@
+.main__item
+
+  &__content 
+    padding 70px 0 0 0
+    
+  &__category-titl
+    font-weight bold
+    display flex
+    align-items: center;
+    margin 0 0 30px 0
+    +before('')
+      width 60px 
+      height 2px 
+      background: black
+      display: block
+      margin 0 30px 0 0
+    
+  &__img 
+    display: block
+    max-width 100%
+    box-shadow 0 15px 30px rgba(0, 0, 0, .35)
+    
+  &__single 
+    margin 0px 0 60px 0
+    
+  &__category
+  &__share 
+    font-family $pnova-bold
+    text-decoration: none
+    text-transform uppercase
+    vertical-align: baseline
+  
+  &__category 
+    color $grey2
+    margin 0 10px 0 15px
+    +after('')
+      display: inline-block 
+      width 5px 
+      margin-left 10px
+      height @width 
+      border-radius(50%)
+      background: $grey
+      top -2px
+      position: relative
+    
+  &__share 
+    color $grey
+      
+  &__title 
+    font-size 24px
+    font-family $pnova-bold
+    margin 30px 0
+    text-decoration: none
+    
+  &__excerpt 
+    color $grey2
+    font-size 16px
+    line-hegiht 27px
+    padding 0 0 30px 0
+  
+  &__more
+    bordered(black, 16px, black)
+    text-decoration: none
+    font-family $pnova-bold

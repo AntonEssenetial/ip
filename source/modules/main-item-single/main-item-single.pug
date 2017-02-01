@@ -1,0 +1,17 @@
+include ../main-blocks/main-blocks
+
+mixin main-item-single(data)
+  each item in data
+    .main__item__single&attributes(attributes).row
+      .main__item__left.static.col_margin
+        img(src= item.photo, alt= item.title).main__item__img
+      .main__item__right.auto__width
+        .row.center
+          span.main__item__icon
+          a(href='category.html').main__item__category= item.categoryTitle
+          a(href="").main__item__share= item.share
+        h2
+          a(href=item.url).main__item__title= item.title
+        span.main__item__excerpt= item.excerpt
+        a(href=item.url).main__item__more= item.more
+  +main-blocks(mainBlocks.default)

@@ -1,10 +1,9 @@
+include ../footer-nav-sub/footer-nav-sub
+
 mixin footer-nav(data)
   .footer-nav&attributes(attributes)
-    ul.footer-nav-menu.row
-      each item, i in data
-        if i === pageId
-          li.footer-nav-menu__item.footer-nav-menu__item_active
-            a(href=item.url).footer-nav-menu__link= item.title
-        else
-          li.footer-nav-menu__item
-            a(href=item.url).footer-nav-menu__link= item.title
+    ul.footer-nav-menu
+      each item in data
+        li.footer-nav-menu__item
+          a(href=item.url).footer-nav-menu__link= item.title
+          +footer-nav-sub(item.sub)

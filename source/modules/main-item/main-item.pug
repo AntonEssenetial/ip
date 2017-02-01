@@ -1,0 +1,9 @@
+include ../main-item-single/main-item-single
+
+mixin main-item(data)
+  .main__item&attributes(attributes)
+    .container
+      each item in data
+        .main__item__content(id= item.categoryTitle)
+          h2.main__item__category-titl= item.categoryTitle
+          +main-item-single(item.mainItemSingle)

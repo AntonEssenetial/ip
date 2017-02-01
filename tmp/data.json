@@ -1,4 +1,31 @@
 {
+	"pageList": {
+		"data": [
+			{
+				"title": "Главная",
+				"url": "home"
+			},
+			{
+				"title": "Страница записи",
+				"url": "single-page"
+			},
+			{
+				"title": "Контаткы",
+				"url": "conctacts"
+			}
+		]
+	},
+	"config": {
+		"projectName": "Ассоциация предпринимателей",
+		"lang": "en",
+		"path": {
+			"favicons": "assets/favicons",
+			"styles": "assets/css",
+			"scripts": "assets/javascripts",
+			"images": "assets/images",
+			"fonts": "assets/fonts"
+		}
+	},
 	"breadCrumbs": {
 		"default": [
 			{
@@ -18,44 +45,192 @@
 			}
 		]
 	},
-	"pageList": {
-		"data": [
+	"footerCheckbox": {
+		"default": [
 			{
-				"title": "Главная",
-				"url": "home"
+				"name": "Новости",
+				"category": [
+					{
+						"categoryName": "Мировые"
+					},
+					{
+						"categoryName": "Российские"
+					},
+					{
+						"categoryName": "Крыма и Севостополя"
+					}
+				]
 			},
 			{
-				"title": "Страница записи",
-				"url": "single-page"
+				"name": "Медиа",
+				"category": [
+					{
+						"categoryName": "Видео"
+					},
+					{
+						"categoryName": "Фото"
+					}
+				]
 			},
 			{
-				"title": "Контаткы",
-				"url": "conctacts"
+				"name": "Правовая информация",
+				"category": [
+					{
+						"categoryName": "Международное право"
+					},
+					{
+						"categoryName": "Федеральное законодательство"
+					},
+					{
+						"categoryName": "Право Крыма и Севастополя"
+					}
+				]
 			}
 		]
 	},
 	"footerNav": {
 		"default": [
 			{
-				"title": "Главная",
-				"url": "index.html"
+				"title": "Новости",
+				"url": "#typography",
+				"sub": [
+					{
+						"title": "Мировыея",
+						"url": "single-page"
+					},
+					{
+						"title": "Российские",
+						"url": "single-page"
+					},
+					{
+						"title": "Крыма и Севастополя",
+						"url": "single-page"
+					}
+				]
 			},
 			{
-				"title": "Контаткы",
-				"url": "contacts.html"
+				"title": "Медиа",
+				"url": "#grid",
+				"sub": [
+					{
+						"title": "Фото",
+						"url": "single-page"
+					},
+					{
+						"title": "Видео",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Мероприятия",
+				"url": "#forms",
+				"sub": [
+					{
+						"title": "Одно",
+						"url": "single-page"
+					},
+					{
+						"title": "Второе",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Правовая информаци",
+				"url": "#buttons",
+				"sub": [
+					{
+						"title": "Международное право",
+						"url": "single-page"
+					},
+					{
+						"title": "Федеральное законодательство",
+						"url": "single-page"
+					},
+					{
+						"title": "Право Крыма и Севастополя",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Сервисы",
+				"url": "#grid",
+				"sub": [
+					{
+						"title": "Юридические услуги",
+						"url": "single-page"
+					},
+					{
+						"title": "Бухгалтерский учет и аудит",
+						"url": "single-page"
+					},
+					{
+						"title": "Финансый центр",
+						"url": "single-page"
+					},
+					{
+						"title": "Ивент",
+						"url": "single-page"
+					},
+					{
+						"title": "Медиа-центр",
+						"url": "single-page"
+					},
+					{
+						"title": "Обучение",
+						"url": "single-page"
+					},
+					{
+						"title": "Торговый дом",
+						"url": "single-page"
+					},
+					{
+						"title": "Проектный центр",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Об Ассоциации",
+				"url": "#components",
+				"sub": [
+					{
+						"title": "Об Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
 			}
 		]
-	},
-	"config": {
-		"projectName": "Ассоциация предпринимателей",
-		"lang": "en",
-		"path": {
-			"favicons": "assets/favicons",
-			"styles": "assets/css",
-			"scripts": "assets/javascripts",
-			"images": "assets/images",
-			"fonts": "assets/fonts"
-		}
 	},
 	"head": {
 		"default": {
@@ -90,278 +265,425 @@
 			"og": "default"
 		}
 	},
-	"mainMenu": {
+	"mainBlocks": {
 		"default": [
 			{
-				"title": "Typography",
-				"url": "#typography",
-				"submenu": [
+				"title": "Форум - финансовый гений",
+				"src": "assets/images/add/1.jpg"
+			},
+			{
+				"title": "Твой Звук - магазин музыкального оборудования",
+				"src": "assets/images/add/2.jpg"
+			},
+			{
+				"title": "Maximum - ремонт телефонов",
+				"src": "assets/images/add/3.jpg"
+			},
+			{
+				"title": "Antonio Shoes - Индивидуальный пошив обуви",
+				"src": "assets/images/add/4.jpg"
+			},
+			{
+				"title": "Чайный Лист - магазин чая",
+				"src": "assets/images/add/5.jpg"
+			},
+			{
+				"title": "Нака суши - Доставка суши в крыму",
+				"src": "assets/images/add/6.jpg"
+			}
+		]
+	},
+	"mainItem": {
+		"default": [
+			{
+				"categoryTitle": "Международное",
+				"mainItemSingle": [
 					{
-						"title": "Об Ассоциации",
-						"url": "#single-page"
+						"categoryTitle": "Международное право",
+						"share": "Поделится",
+						"title": "Особенности заполнения бланка CMR",
+						"excerpt": "Бланк CMR – это международный документ, транспортная накладная, необходимая для оформления грузов, перевозимых через границу. В основном этот документ оформляется при пересечении стран, которые находятся в таможенном союзе с Россией",
+						"more": "подробнее",
+						"photo": "assets/images/home/1.jpg",
+						"url": "single-page.html"
 					},
 					{
-						"title": "Документы",
-						"url": "#single-page"
-					},
-					{
-						"title": "Структура АПРКС",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководство",
-						"url": "#single-page"
-					},
-					{
-						"title": "Председатель правления",
-						"url": "#single-page"
-					},
-					{
-						"title": "Генеральный директор",
-						"url": "#single-page"
-					},
-					{
-						"title": "Правление",
-						"url": "#single-page"
-					},
-					{
-						"title": "Заместители председателя",
-						"url": "#single-page"
-					},
-					{
-						"title": "Исполнительная дирекция",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководители структурных подразделений",
-						"url": "#single-page"
-					},
-					{
-						"title": "Комитеты",
-						"url": "#single-page"
-					},
-					{
-						"title": "Филиалы",
-						"url": "#single-page"
+						"categoryTitle": "Международное право",
+						"share": "Поделится",
+						"title": "Международное право и внутригосударственное право",
+						"excerpt": "Бланк CMR – это международный документ, транспортная накладная, необходимая для оформления грузов, перевозимых через границу. В основном этот документ оформляется при пересечении стран, которые находятся в таможенном союзе с Россией",
+						"more": "подробнее",
+						"photo": "assets/images/home/2.jpg",
+						"url": "single-page.html"
 					}
 				]
 			},
 			{
-				"title": "Forms",
-				"url": "#forms",
-				"submenu": [
+				"categoryTitle": "Финансы",
+				"mainItemSingle": [
 					{
-						"title": "Ассоциации",
-						"url": "#single-page"
+						"categoryTitle": "Международное право",
+						"share": "Поделится",
+						"title": "Особенности заполнения бланка CMR",
+						"excerpt": "Бланк CMR – это международный документ, транспортная накладная, необходимая для оформления грузов, перевозимых через границу. В основном этот документ оформляется при пересечении стран, которые находятся в таможенном союзе с Россией",
+						"more": "подробнее",
+						"photo": "assets/images/home/3.jpg",
+						"url": "single-page.html"
 					},
 					{
-						"title": "Документы",
-						"url": "#single-page"
-					},
-					{
-						"title": "Структура АПРКС",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководство",
-						"url": "#single-page"
-					},
-					{
-						"title": "Председатель правления",
-						"url": "#single-page"
-					},
-					{
-						"title": "Генеральный директор",
-						"url": "#single-page"
-					},
-					{
-						"title": "Правление",
-						"url": "#single-page"
-					},
-					{
-						"title": "Заместители председателя",
-						"url": "#single-page"
-					},
-					{
-						"title": "Исполнительная дирекция",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководители структурных подразделений",
-						"url": "#single-page"
-					},
-					{
-						"title": "Комитеты",
-						"url": "#single-page"
-					},
-					{
-						"title": "Филиалы",
-						"url": "#single-page"
-					}
-				]
-			},
-			{
-				"title": "Buttons",
-				"url": "#buttons",
-				"submenu": [
-					{
-						"title": "Об Ассоциации",
-						"url": "#single-page"
-					},
-					{
-						"title": "Документы",
-						"url": "#single-page"
-					},
-					{
-						"title": "Структура АПРКС",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководство",
-						"url": "#single-page"
-					},
-					{
-						"title": "Председатель правления",
-						"url": "#single-page"
-					},
-					{
-						"title": "Генеральный директор",
-						"url": "#single-page"
-					},
-					{
-						"title": "Правление",
-						"url": "#single-page"
-					},
-					{
-						"title": "Заместители председателя",
-						"url": "#single-page"
-					},
-					{
-						"title": "Исполнительная дирекция",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководители структурных подразделений",
-						"url": "#single-page"
-					},
-					{
-						"title": "Комитеты",
-						"url": "#single-page"
-					},
-					{
-						"title": "Филиалы",
-						"url": "#single-page"
-					}
-				]
-			},
-			{
-				"title": "Components",
-				"url": "#components",
-				"submenu": [
-					{
-						"title": "Об Ассоциации",
-						"url": "#single-page"
-					},
-					{
-						"title": "Документы",
-						"url": "#single-page"
-					},
-					{
-						"title": "Структура АПРКС",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководство",
-						"url": "#single-page"
-					},
-					{
-						"title": "Председатель правления",
-						"url": "#single-page"
-					},
-					{
-						"title": "Генеральный директор",
-						"url": "#single-page"
-					},
-					{
-						"title": "Правление",
-						"url": "#single-page"
-					},
-					{
-						"title": "Заместители председателя",
-						"url": "#single-page"
-					},
-					{
-						"title": "Исполнительная дирекция",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководители структурных подразделений",
-						"url": "#single-page"
-					},
-					{
-						"title": "Комитеты",
-						"url": "#single-page"
-					},
-					{
-						"title": "Филиалы",
-						"url": "#single-page"
-					}
-				]
-			},
-			{
-				"title": "Grid",
-				"url": "#grid",
-				"submenu": [
-					{
-						"title": "Об Ассоциации",
-						"url": "#single-page"
-					},
-					{
-						"title": "Документы",
-						"url": "#single-page"
-					},
-					{
-						"title": "Структура АПРКС",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководство",
-						"url": "#single-page"
-					},
-					{
-						"title": "Председатель правления",
-						"url": "#single-page"
-					},
-					{
-						"title": "Генеральный директор",
-						"url": "#single-page"
-					},
-					{
-						"title": "Правление",
-						"url": "#single-page"
-					},
-					{
-						"title": "Заместители председателя",
-						"url": "#single-page"
-					},
-					{
-						"title": "Исполнительная дирекция",
-						"url": "#single-page"
-					},
-					{
-						"title": "Руководители структурных подразделений",
-						"url": "#single-page"
-					},
-					{
-						"title": "Комитеты",
-						"url": "#single-page"
-					},
-					{
-						"title": "Филиалы",
-						"url": "#single-page"
+						"categoryTitle": "Международное право",
+						"share": "Поделится",
+						"title": "Особенности заполнения бланка CMR",
+						"excerpt": "Бланк CMR – это международный документ, транспортная накладная, необходимая для оформления грузов, перевозимых через границу. В основном этот документ оформляется при пересечении стран, которые находятся в таможенном союзе с Россией",
+						"more": "подробнее",
+						"photo": "assets/images/home/4.jpg",
+						"url": "single-page.html"
 					}
 				]
 			}
 		]
+	},
+	"mainMenu": {
+		"default": [
+			{
+				"title": "Новости",
+				"url": "#typography",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Мероприятия",
+				"url": "#forms",
+				"submenu": [
+					{
+						"title": "Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Правовая информаци",
+				"url": "#buttons",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Об Ассоциации",
+				"url": "#components",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Медиа",
+				"url": "#grid",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Сервисы",
+				"url": "#grid",
+				"submenu": [
+					{
+						"title": "Об Ассоциации",
+						"url": "single-page"
+					},
+					{
+						"title": "Документы",
+						"url": "single-page"
+					},
+					{
+						"title": "Структура АПРКС",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководство",
+						"url": "single-page"
+					},
+					{
+						"title": "Председатель правления",
+						"url": "single-page"
+					},
+					{
+						"title": "Генеральный директор",
+						"url": "single-page"
+					},
+					{
+						"title": "Правление",
+						"url": "single-page"
+					},
+					{
+						"title": "Заместители председателя",
+						"url": "single-page"
+					},
+					{
+						"title": "Исполнительная дирекция",
+						"url": "single-page"
+					},
+					{
+						"title": "Руководители структурных подразделений",
+						"url": "single-page"
+					},
+					{
+						"title": "Комитеты",
+						"url": "single-page"
+					},
+					{
+						"title": "Филиалы",
+						"url": "single-page"
+					}
+				]
+			},
+			{
+				"title": "Сообщество",
+				"url": "test",
+				"submenu": "flase"
+			}
+		]
+	},
+	"mainTop": {
+		"default": {
+			"subTitle": "Натуральный иран",
+			"title": "Зеленый соботан",
+			"date": "Mай 2017",
+			"excerpt": "Деревня была полна прекрасных маленьких вещей, чтобы пройти мимо. Как это простое синее окно с цветочными занавесками. Все эти красоты сдели нас чтобы думать об уходе",
+			"categoryTitle": "Меропирятия",
+			"photo": "assets/images/background/main.jpg"
+		}
 	}
 }

@@ -1,0 +1,41 @@
+.main__dots
+  position: fixed 
+  right 20px
+  top 50%
+  z-index: 10
+  
+  &__link
+    margin 10px 0 
+    background: $grey2
+    width 6px 
+    height @width
+    border-radius(50%)
+    position: relative
+    
+  &__link:hover &__span 
+    visibility visible 
+    opacity 1
+    trs()
+  
+  &__link.active
+    background: $brown
+    
+  &__span
+    background: $brown
+    opacity: 0
+    visibility hidden
+    color white
+    padding 2px 6px
+    position: absolute
+    right 20px
+    top -8px
+    display: block
+    height 22px
+    white-space nowrap
+    +after('')
+      triangle(7px,22px,right,$brown)
+      display: block
+      position: absolute
+      right -7px
+      top 0px
+    

@@ -2,9 +2,104 @@
   footerNav:
     default:
       -
-        title: 'Главная'
-        url: 'index.html'
-      - 
-        title: 'Контаткы'
-        url: 'contacts.html'
-      
+        title: "Новости"
+        url: "#typography"
+        sub:
+          -
+            title: Мировыея
+            url: "single-page"
+          -
+            title: Российские
+            url: "single-page"
+          -
+            title: Крыма и Севастополя
+            url: "single-page"
+      -
+        title: "Медиа"
+        url: "#grid"
+        sub:
+          -
+            title: "Фото"
+            url: "single-page"
+          -
+            title: "Видео"
+            url: "single-page"
+      -
+        title: "Мероприятия"
+        url: "#forms"
+        sub:
+          -
+            title: "Одно"
+            url: "single-page"
+          -
+            title: "Второе"
+            url: "single-page"
+      -
+        title: "Правовая информаци"
+        url: "#buttons"
+        sub:
+          -
+            title: "Международное право"
+            url: "single-page"
+          -
+            title: "Федеральное законодательство"
+            url: "single-page"
+          -
+            title: "Право Крыма и Севастополя"
+            url: "single-page"
+      -
+        title: "Сервисы"
+        url: "#grid"
+        sub:
+          -
+            title: Юридические услуги
+            url: "single-page"
+          -
+            title: Бухгалтерский учет и аудит
+            url: "single-page"
+          -
+            title: Финансый центр
+            url: "single-page"
+          -
+            title: Ивент
+            url: "single-page"
+          -
+            title: Медиа-центр
+            url: "single-page"
+          -
+            title: Обучение
+            url: "single-page"
+          -
+            title: Торговый дом
+            url: "single-page"
+          -
+            title: Проектный центр
+            url: "single-page"
+      -
+        title: "Об Ассоциации"
+        url: "#components"
+        sub:
+          -
+            title: "Об Ассоциации"
+            url: "single-page"
+          -
+            title: "Документы"
+            url: "single-page"
+          -
+            title: "Структура АПРКС"
+            url: "single-page"
+          -
+            title: "Заместители председателя"
+            url: "single-page"
+          -
+            title: "Исполнительная дирекция"
+            url: "single-page"
+          -
+            title: "Руководители структурных подразделений"
+            url: "single-page"
+          -
+            title: "Комитеты"
+            url: "single-page"
+          -
+            title: "Филиалы"
+            url: "single-page"

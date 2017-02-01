@@ -1,0 +1,16 @@
+mixin footer-checkbox(data)
+  .footer__form__check-wrapper&attributes(attributes)
+    each item in data
+      .footer__form__check-row
+        span.footer__form__category= item.title
+        +footer-checkbox-row(item.sub)
+
+
+mixin footer-checkbox-row(data)
+  .row.footer__form__ch-row&attributes(attributes)
+    each item in data
+      .footer__form__checkbox
+        label().label__checkbox
+          input(type="checkbox").input__checkbox
+          i
+          span=item.title

@@ -68,7 +68,7 @@ $span-color = $dark
 
 // Heading - sive 
 $h1 = 50px
-$h2 = 48px
+$h2 = 44px
 $h3 = 36px
 $h4 = 24px
 $h5 = 20px
@@ -397,8 +397,8 @@ customCheckbox(customCheckbox = false)
       display none
     .label__checkbox
     .label__radio
-      margin 20px 0 0px 0 
-      color dark
+      margin 8px 0 0px 0 
+      color $grey2
       font-size 14px 
       font-weight 200
       display flex
@@ -429,27 +429,17 @@ customCheckbox(customCheckbox = false)
       height @width
       display inline-block
       position relative
-      border-radius (2px)
-      background: white
+      border-radius (0px)
+      background: #eae8e3
       cursor pointer
-      border 1px solid white
+      margin-right 5px
       +after('')
-        width 8px 
-        height 5px 
-        border-radius (0%)
-        display block
-        border-bottom: 3px solid #f5aa00;
-        border-left: 3px solid #f5aa00;
-        transform: rotateZ(-45deg);
-        trs()
-        margin-left 0px
-        left 3px 
-        top 3px
-        position: relative
-        display none
+        background: black
+        width 11px 
+        height @width
+        margin 4px
     // Custom checkbox
     .label__checkbox .input__checkbox:checked + i
-      border-color $blue
       +after()
         display: block
         trs()
@@ -589,12 +579,12 @@ button
   border 1px solid $grey
   background: transparent
   &:hover 
-    border-color $yellow
-    background: transparent
+    border-color $brown
+    background: $brown
 
 
 // Bordered
-bordered( $color = yellow, $size = 14px, $color2 = white)
+bordered( $color = $brown, $size = 14px, $color2 = $brown)
   if $size
     font-size $size
   if $color2
@@ -604,7 +594,6 @@ bordered( $color = yellow, $size = 14px, $color2 = white)
   text-transform: uppercase
   +after('')
     width 20px 
-    absolute-center(20px, -15px)
     height 2px 
     if $color
       background: $color
@@ -620,7 +609,7 @@ bordered( $color = yellow, $size = 14px, $color2 = white)
       trs()
       
 
-bordered-center( $color = yellow, $size = 14px, $color2 = white)
+bordered-center( $color = black, $size = 14px, $color2 = black)
   if $size
     font-size $size
   if $color2
@@ -687,6 +676,7 @@ h1
 h2 
   font-size $h2
   color $h-color
+  font-family cormorant
 h3 
   font-size $h3
   color $h-color

@@ -2,13 +2,12 @@ include ../modules/injected/injected
 include ../modules/page/page
 
 include ../modules/head/head
-include ../modules/footer/footer
 include ../modules/header/header
+include ../modules/main/main
+include ../modules/footer/footer
 
 //- include ../modules/sidebar/sidebar
 include ../modules/page-title/page-title
-
-- var pageId = 0;
 
 doctype html
 html(lang=config.lang)
@@ -21,7 +20,7 @@ html(lang=config.lang)
       +header()
 
     +inject('main')
-      //- +page-title({"title": "Главная"})
+      +main()
 
     +inject('footer')
       +footer()

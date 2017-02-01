@@ -9,18 +9,16 @@ mixin page(data)
       
       +injected: block
 
-      .page__content
-        .page__wrapper
-          +if('header')
-            +use('header')
+      .page__wrapper
+        +if('header')
+          +use('header')
 
-          +if('main')
-            section.page__main
-              +use('main')
+        +if('main')
+          section.page__main
+            +use('main')
 
         +if('footer')
-          .page__footer
-            +use('footer')
+          +use('footer')
   
       +scripts()
       //- +popup()

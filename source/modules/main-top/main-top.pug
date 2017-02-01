@@ -1,0 +1,13 @@
+mixin main-top(data)
+  .main__top&attributes(attributes)
+    .container
+      .row
+        .main__top__left.ta-center
+          span.main__top__subtitle= data.subTitle
+          h1.main__top__title= data.title
+          span.main__top__date= data.date
+          p.main__top__excerpt= data.excerpt
+          a(href="").button.button_transparent Узнать больше
+        .main__top__right.width__auto.row
+          img(src= data.photo alt= data.title).main__top__img
+          h2.main__top__category-title= data.categoryTitle

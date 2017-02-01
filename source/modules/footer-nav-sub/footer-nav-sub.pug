@@ -1,0 +1,7 @@
+mixin footer-nav-sub(data)
+  ul.footer-nav-menu__sub.row.center-c.center&attributes(attributes)
+    each item in data
+      li.footer-nav-menu__sub__item
+        a(href=item.url).footer-nav-menu__sub__link= item.title
+
+		

@@ -1,7 +1,7 @@
 mixin modal(data)
   .modal(data-remodal-id=data.id)&attributes(attributes)
-      if data.close
-        button.button_close(data-remodal-action="close")
-      .modal__wrapper
-        .modal__content
-          block
+    if data.close
+      button.button_close(data-remodal-action="close")
+    .modal-wrapper
+      .modal__content
+        block

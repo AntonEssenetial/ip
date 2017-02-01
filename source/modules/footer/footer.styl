@@ -1,0 +1,100 @@
+.footer
+  background: $soft
+  margin-top 60px
+  
+  &__up
+    position: fixed 
+    right 20px 
+    bottom 20px
+  
+  &__top 
+    padding 50px 0
+    border-bottom 1px solid #cfcfcf
+    
+    &__right__span 
+      margin-top 20px
+    
+  &__menu
+    border-bottom 1px solid #cfcfcf
+    padding 30px 0 10px 0
+    
+  &__subscribe
+    font-family $pnova-bold
+    font-size 16px
+    margin 0 0 20px 0
+  
+  &__bottom 
+    padding 30px 0
+    
+    &__soc 
+      flex 1
+      &-link 
+        margin-right 10px !important
+    
+    &__link 
+      font-family $pnova-reg
+      text-decoration: none
+      text-transform: uppercase
+      margin-right 10px
+      font-size 12px
+      
+      span 
+        font-family $pnova-bold
+        vertical-align baseline
+      
+    &__right
+      text-align: right
+      span 
+        font-size 12px
+        color $grey2
+      a 
+        margin-right 0px
+        margin-left 5px
+  
+  &__copy 
+    font-size 12px 
+    color $grey2
+    margin 10px 0 0 0
+    
+  &__form 
+    
+    &__ch-row 
+      flex-wrap wrap
+    
+    &__check-row 
+      margin-bottom 20px
+
+    &__checkbox 
+      margin-right 20px
+
+    &__check-wrapper
+      background: white
+      padding 20px
+      box-shadow 0 10px 20px rgba(0, 0, 0, .15)
+      display: none
+      
+    &__check-wrapper.active 
+      display block
+      
+    &__category 
+      font-family $pnova-bold
+      text-transform: uppercase
+      font-size 16px
+  
+.form__input_subscibe
+  +placeholder()
+    color $grey2
+    font-size 16px
+  margin 0 0 1px 0
+  border-color white
+  
+.form__input__submit
+  border-color white
+  width 40px
+  background: image-url('enter.png') no-repeat center white
+  cursor pointer 
+  opacity: 0.5
+  trs()
+  &:hover 
+    opacity 1 
+    trs()

@@ -1,0 +1,63 @@
+.main__top
+  background: #b2aca2
+  padding 50px 0
+  
+  &__title 
+    font-family cormorant
+    text-transform uppercase
+    margin 0 0 10px 0
+    
+  &__subtitle
+    +after('')
+      width 30px 
+      height 1px 
+      background: white 
+      margin 30px auto 20px auto
+      display: block
+    
+  &__subtitle 
+  &__date
+    text-transform: uppercase 
+    font-size 16px
+    
+  &__title 
+  &__subtitle
+  &__excerpt
+  &__date 
+    color white
+    
+  &__excerpt
+    margin 30px 0 15px 0
+    
+  &__left 
+    width 390px 
+    static()
+    padding 40px 20px
+  
+  &__img 
+    display: block
+    max-width 100%
+  
+  &__category-title
+    color white
+    transform rotateZ(90deg)
+    transform-origin top
+    position: absolute;
+    bottom: 65px;
+    right: -70px;
+    +after('')
+      width: 135px;
+      height: 2px;
+      content: '';
+      background: #fff;
+      position: absolute;
+      top: 30px;
+      right: 278.6px;
+      
+      
+.button_transparent 
+  color white 
+  border-color white
+  font-family $pnova-bold
+  text-transform: uppercase
+  
