@@ -1,0 +1,28 @@
+include ../modules/injected/injected
+include ../modules/page/page
+
+include ../modules/head/head
+include ../modules/header/header
+include ../modules/category/category
+include ../modules/footer/footer
+
+//- include ../modules/sidebar/sidebar
+include ../modules/page-title/page-title
+
+doctype html
+html(lang=config.lang)
+
+  head
+    +head(head.category)
+
+  +page()
+    +inject('header')
+      +header()
+
+    +inject('category')
+      +category()
+
+    +inject('footer')
+      +footer()
+
+

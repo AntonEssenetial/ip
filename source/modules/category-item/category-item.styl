@@ -1,0 +1,51 @@
+.category__item
+  width 25%
+  margin-bottom 20px
+  padding-bottom 20px
+  border-bottom 1px solid $border
+  position: relative
+  &:after
+  &:before
+    content ''
+    position: absolute
+    width 15px 
+    height @width 
+    background: white
+    display: block
+    bottom -5px
+  +after('')
+    right -5px 
+  +before('')
+    left -5px
+  
+    
+  
+  
+  &__img 
+    width 100%
+    height auto
+    display: block
+    margin-bottom 20px
+    
+  &__title 
+    font-size 18px
+    font-family $pnova-bold
+    text-transform uppercase
+    text-decoration: none
+    margin 0 0 20px 0
+    
+  &__date 
+    color #6f6f6f
+    font-size 14px
+    position: relative
+    +after('')
+      position: absolute
+      width 30px 
+      height 1px 
+      background: #e4e4e4
+      top -7px
+      display: block
+    
+    
+  &__link 
+    width 100%

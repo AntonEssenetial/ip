@@ -1,0 +1,12 @@
+include ../category-slider/category-slider
+include ../category-item/category-item
+
+mixin category(data)
+  .category&attributes(attributes)
+    .category-slider-wrapper
+      +category-slider()
+    .category-item-wrapper
+      .container 
+        .f__row.wrap.between
+          - for (var x = 0 ; x < 16; x ++)
+            +category-item()

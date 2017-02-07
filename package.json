@@ -40,12 +40,14 @@
     "gulp-yaml": "^1.0.1",
     "gulp-zip": "^4.0.0",
     "imagemin-pngquant": "^5.0.0",
+    "lodash": "^4.17.4",
     "mixins-stylus": "0.0.5",
     "mkdirp": "^0.5.1",
     "nib": "^1.1.2",
     "path": "^0.12.7",
     "rapture": "0.0.7",
     "run-sequence": "^1.2.2",
+    "underscore": "^1.8.3",
     "vinyl-buffer": "^1.0.0"
   },
   "scripts": {

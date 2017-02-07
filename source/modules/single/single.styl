@@ -1,0 +1,100 @@
+.single
+  
+  &-wrapper
+    padding 40px 0 100px 0
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 40%,#f1f0ed 40%,#f1f0ed 100%);
+
+    
+  &__article
+    
+    &__top__link
+    &__top__date
+      text-decoration: none
+      color $grey2
+      
+    &__tag 
+      text-transform: uppercase
+      color $grey
+      margin-right 30px
+      
+    &__link
+      background: white 
+      text-decoration: none
+      font-size 18px
+      padding 5px 10px
+      margin-right 5px
+      &:hover 
+        background: $brown 
+        color white
+      
+    &__top__date
+      position: relative
+      +before('')
+        left 0px
+        height 1px 
+        background: $grey
+        width 40px
+        margin-right 15px
+        display inline-block
+        
+    &__title 
+      text-align: center
+      margin 10px 0 60px 0
+      width 80%
+      
+    &__img 
+      width 100%
+      height auto 
+      display: block
+      margin 0 0 50px 0
+      
+    &__left 
+      width 70%
+      
+      p 
+        font-size 18px
+        a 
+          color $brown
+          font-size 18px
+          text-decoration: none
+          
+      &__content 
+        position: relative
+        padding 0 0 50px 0 
+        border-bottom 1px solid #dadada
+        margin 0 0 20px 0
+        +after('')
+          width 8px 
+          height @width
+          background: $brown
+          display: block
+          position absolute
+          right 0px 
+          bottom 74px
+    
+    &__right
+      width 30%
+      +before('')
+        width 50% 
+        height 2px 
+        background: #dcdcdc
+        display: block
+        margin-left 50%
+        position: relative 
+        top 4px
+        
+  &__more  
+    padding 60px 0 0px 0   
+    background: linear-gradient(to bottom,  #b2aca2 0%,#b2aca2 50%,#fff 50%,#fff 100%);
+    
+    &__title 
+      color white
+      text-transform: uppercase
+      margin 0 0 60px 0
+      +after('')
+        display: block
+        width 50px
+        height 2px 
+        margin 10px auto 0 auto
+        background: white
+        

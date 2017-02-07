@@ -27,3 +27,34 @@
       mobile: true
       meta: default
       og: default
+
+    category:
+      title: Категории
+      mobile: true
+      meta: default
+      og: default
+
+    single:
+      title: Страница записи
+      mobile: true
+      meta: default
+      og: default
+
+    gallery:
+      title: Галерея
+      mobile: true
+      meta: default
+      og: default
+
+    registartion:
+      title: Регитсрация
+      mobile: true
+      meta: default
+      og: default
+
+    contacts:
+      title: Контакты
+      mobile: true
+      meta: default
+      og: default
+

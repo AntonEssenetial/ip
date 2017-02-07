@@ -1,21 +1,163 @@
 // Media queries, example +width-range(10em, 20em)
-// +width-max($container-wrapper-width)
-
++width-max($container-width)
+  .container 
+  .slick-dots
+    width 100%
+  .main__top__row 
+    flex-direction column
+  .main__top__right
+  .main__top__left
+    width 100%
+  .main__top 
+    padding 0px 0 20px 0
+  .main__item__content
+    padding 20px 0 0 0
+  .main__top__right
+  .main__dots 
+  .main__top__category-title
+  .main__blocks
+  .footer__up
+    display: none
+  .main__item__left
+  .main__item__right
+    width 50%
+  .main__item__right > .row 
+    flex-wrap wrap
+  .main-menu
+    trs()
+    display: none
+    position: absolute
+    left 0px
+    background: white
+    top 130px
+    width 100%
+    margin 0px
+    z-index: 10
+    box-shadow 0 10px 10px rgba(0, 0, 0, .15)
+    padding 10px 0
+  .main-menu.active
+    display: block
+  .toggle-menu
+    display: block
+    margin 0
+    top -6px
+    left 10px
+  .main-menu ul
+    flex-direction column
+  .main-menu__item 
+    margin 10px 20px
+  
 
 // iPadi pro 
 // +width-max(1366px)
 
 
 // iPad 
-// +width-max(1024px)
++width-max(900px)
+  .main__item__single
+    flex-direction column
+  .main__item__left 
+  .main__item__right
+    width 100%
+  .main__item__left 
+    margin-bottom 30px
+  .main__item__title
+    margin 20px 0
+  .main__item__img
+    width 100%
+  .footer__bottom
+    > .container
+      > .row 
+        flex-direction column
+  .footer__bottom__left
+    margin 0 0 20px 0
+  .footer__bottom__right
+    text-align left
+  .footer__bottom__soc
+    justify-content flex-start
+    margin-bottom 20px
+  .vk 
+    margin-left 0px !important
+  .main-menu__sub-menu
+    padding 70px 10px
+  .main-menu__sub-menu__link
+    font-size 18px
 
 
 // iPad mini
-// +width-max(768px)
-
++width-max(768px)
+  .gallery__item 
+    width 50%
+  .single__article__title
+    width 100%
+    font-size 24px
+    margin-bottom 20px
+    text-align left
+  .main__item__category-titl
+    font-size 30px
+    margin-bottom 20px 
+    +before()
+      display: none
+  .single__more__title
+    color black
+    margin-bottom 20px
+    +after() 
+      background: black
+  .single__more
+    background: white
+    padding 20px
+  .single-wrapper
+    padding-bottom 20px
+    background: #f7f7f7
+  .single__article__img
+    margin-bottom 20px
+  .header__bottom__search
+  .footer__top__left
+  .slick-dots
+  .single__article__right
+    display: none
+  .footer__bottom__right
+  .single__article__left
+  .contacts__form__left
+  .contacts__form__right
+  .contacts__town
+    width 100%
+  .footer__bottom__left
+    width 100%
+    > .row 
+      flex-wrap wrap
+  .header__top
+    height 150px
+  .main__item__category
+  .main__item__icon
+    margin-bottom 20px
+  .category__slider
+    padding 30px 0
+  .category__slider__title
+    font-size 20px
+  .category__item
+    width 50%
+  .single__article__left__tags
+    flex-wrap wrap
+  .single__article__link
+    margin-bottom 10px
+  .single__article__top
+    flex-direction column
+  .single__article__top__link
+  .contacts__town
+    margin-bottom 10px
+  .contacts__form__row 
+  .contacts__town__row
+    flex-direction column
+  .form__area_contacts
+    height 200px
+  
 
 // iPohne 6+
-// +width-max(414px)
++width-max(414px)
+  .category__item
+  .gallery__item
+    width 100%
 
 
 // iPhone 6

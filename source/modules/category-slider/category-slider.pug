@@ -1,0 +1,11 @@
+mixin category-slider(data)
+  .category__slider&attributes(attributes)
+    .container
+      span.category__slider__top ТОП 5 НОВОСТей
+    .slick__slider
+      - for (var x = 0; x < 5; x ++)
+        .slide
+          .container
+            a(href="single.html").category__slider__title 
+              h1 Teva Pharmaceutical Industries и ее "дочка" в РФ выплатят в США штраф в $520 млн
+            span.category__slider__date международное право / янв 2017

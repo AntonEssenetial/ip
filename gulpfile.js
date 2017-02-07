@@ -1,32 +1,34 @@
 // npm i gulpjs/gulp#4.0 gulp-if gulp-pug emitty
-var gulp = require('gulp'),
-    sourceName = 'Project Name',
-    $ = require('gulp-load-plugins')(),
-    fs = require('fs'),
-    path = require('path'),
-    emitty = require('emitty').setup('source', 'pug'),
-    pug = require ('gulp-pug'),
-    stylus = require ('gulp-stylus'),
-    csso = require('gulp-csso'),
-    csscomb = require('gulp-csscomb'),
-    nib = require('nib'),
-    spritesmith = require('gulp.spritesmith'),
-    htmlPrettify = require('gulp-prettify'),
-    rename = require('gulp-rename'),
-    gulpZip = require('gulp-zip'),
-    browserSync = require('browser-sync').create(),
-    watch = require ('gulp-watch'),
-    concat = require('gulp-concat'),
-    gcmq = require('gulp-combine-mq'),
-    include = require('gulp-include'),
-    changed = require('gulp-changed'),
-    gulpif = require('gulp-if'),
-    filter = require('gulp-filter'),
-    imagemin = require('gulp-imagemin'),
-    imageminPngquant = require('imagemin-pngquant'),
-    buffer = require('vinyl-buffer'),
-    reload = browserSync.reload;
+const gulp = require('gulp'),
+      sourceName = 'Project Name',
+      $ = require('gulp-load-plugins')(),
+      fs = require('fs'),
+      path = require('path'),
+      pug = require ('gulp-pug'),
+      stylus = require ('gulp-stylus'),
+      csso = require('gulp-csso'),
+      csscomb = require('gulp-csscomb'),
+      nib = require('nib'),
+      spritesmith = require('gulp.spritesmith'),
+      htmlPrettify = require('gulp-prettify'),
+      rename = require('gulp-rename'),
+      gulpZip = require('gulp-zip'),
+      browserSync = require('browser-sync').create(),
+      watch = require ('gulp-watch'),
+      concat = require('gulp-concat'),
+      gcmq = require('gulp-combine-mq'),
+      include = require('gulp-include'),
+      changed = require('gulp-changed'),
+      gulpif = require('gulp-if'),
+      filter = require('gulp-filter'),
+      imagemin = require('gulp-imagemin'),
+      imageminPngquant = require('imagemin-pngquant'),
+      buffer = require('vinyl-buffer'),
+      reload = browserSync.reload;
 
+const emitty = require('emitty').setup('source/pages', 'pug', {
+    makeVinylFile: true
+});
 
 // Read json and return object
 function getJsonData(file) {
@@ -378,11 +380,10 @@ gulp.task('watch', () => {
     global.watch = true;
 
 
-    // Modules pug
-    $.watch('source/**/*.pug', gulp.series('pug'))
-        .on('all', (event, filepath) => {
-            global.emittyChangedFile = filepath;
-        });
+    gulp.watch('source/**/*.pug', gulp.series('pug'))
+    .on('all', (event, filepath) => {
+        global.emittyChangedFile = filepath;
+    });
 
 
     // Modules data

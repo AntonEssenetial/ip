@@ -1,0 +1,26 @@
+include ../modules/injected/injected
+include ../modules/page/page
+
+include ../modules/head/head
+include ../modules/header/header
+include ../modules/gallery/gallery
+include ../modules/footer/footer
+
+//- include ../modules/sidebar/sidebar
+include ../modules/page-title/page-title
+
+doctype html
+html(lang=config.lang)
+
+  head
+    +head(head.gallery)
+
+  +page()
+    +inject('header')
+      +header()
+
+    +inject('gallery')
+      +gallery()
+
+    +inject('footer')
+      +footer()

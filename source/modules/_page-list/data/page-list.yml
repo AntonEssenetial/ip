@@ -4,8 +4,17 @@ pageList:
       title: Главная
       url: home
     - 
+      title: Категории
+      url: category
+    - 
       title: Страница записи
-      url: single-page
+      url: single
+    - 
+      title: Галлерея
+      url: gallery
     - 
       title: Контаткы
-      url: conctacts
+      url: contacts
+    -
+      title: Регистрация 
+      url: registration

@@ -1,0 +1,11 @@
+mixin gallery(data)
+  .gallery&attributes(attributes)
+    .gallery-wrapper
+      .container
+        .row.center-c
+          span.gallery__title Галерея
+        .gallery__items.f__row
+          -for(var x =0; x < 16; x++)
+            a(href='assets/images/article/3.jpg').gallery__item.f__col
+              img(src="assets/images/article/3.jpg", alt="").gallery__item__img
+		

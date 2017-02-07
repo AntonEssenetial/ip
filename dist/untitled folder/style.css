@@ -1,0 +1,15 @@
+/*
+Theme Name: Ассоциация предринимателей
+Author: Murat Khtaypov (Anton Essential)
+Author URI: https://www.facebook.com/AntonEssentialBY
+Version: 1.2
+License: Please read the attached license folder!
+License URI: <a href="http://wiki.envato.com/support/legal-terms/licensing-terms/">http://wiki.envato.com/support/legal-terms/licensing-terms/</a>
+Tags: theme-options, translation-ready
+Description: WordPress theme with magazine style, newspaper style and blog style with powerful rating system and woocommerce
+Text Domain: fineglobe
+*/
+
+.category__item__title {
+	display: block;
+}

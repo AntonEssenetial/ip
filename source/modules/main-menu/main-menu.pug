@@ -9,5 +9,5 @@ mixin main-menu(data)
         li.main-menu__item
           a(href=item.url, data-remodal-target='modal0'+i).main-menu__link= item.title
           if (item.submenu !== false)
-            +modal({"id": "modal0"+i, "close": false}).main-menu__modal-wrapper
+            +modal({"id": "modal0"+i, "close": true}).main-menu__modal-wrapper
               +main-menu-submenu(item.submenu)

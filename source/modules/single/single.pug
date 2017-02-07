@@ -1,0 +1,30 @@
+include ../category-item/category-item
+
+mixin single(data)
+  .single&attributes(attributes)
+    .single-wrapper
+      .container
+        .single__article
+          .row.single__article__top.between
+            a(href="category.html").single__article__top__link Международное право
+            span.single__article__top__date.row.center 2 Января / 2017
+          .row.center-c
+            h1.single__article__title ОКР для защиты в делах о допинге нужны юристы, знающие международное право - Жуков
+          img(src="assets/images/article/2.jpg", alt="").single__article__img
+          .single__article__content.row.between
+            .single__article__right.col_margin
+            .single__article__left
+              .single__article__left__content
+                p МОСКВА, 27 дек - Р-Спорт. Олимпийский комитет России <a href=''>(ОКР)</a> в рамках разбирательств по допингу в российском спорте должен привлечь сильных юристов, знающих международное право, заявил глава ОКР Александр Жуков. В декабре была представлена вторая часть доклада независимой комиссии Всемирного антидопингового агентства (WADA) во главе с Ричардом Маклареном, расследовавшей применение допинга в России. Помимо Макларена расследование в отношении России ведут сразу две комиссии МОК, созданные в июле — Денниса Освальда, который должен заниматься перепроверкой проб россиян с Олимпийских игр в Сочи, и сменившего Ги Каниве Самуэля Шмида, который проверяет достоверность информации о государственном вмешательстве в российскую антидопинговую систему.
+              .single__article__left__tags.row
+                span.single__article__tag Тэги:
+                a(href="").single__article__link ОKP
+                a(href="").single__article__link МOK
+                a(href="").single__article__link Александр Жуков
+    .single__more
+      .container
+        .row.center-c
+          span.single__more__title Самое читаемое
+        .f__row.wrap.between
+          - for (var x = 0 ; x < 4; x ++)
+            +category-item()

@@ -41,6 +41,8 @@
 // Helpers
 //= require helpers/jquery.isset.js
 //= require helpers/jquery.scrollTo.js
+//= require slick/slick.min.js
+//= require simple/simple-lightbox.min.js
 
 
 //////////////////////////////////////////////////////////////////////////////

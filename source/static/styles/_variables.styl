@@ -1,9 +1,9 @@
 // Import plugins
 animate-css(true)
 bxslider(false)
-slick(false)
+slick(true)
 customScrollbar(false)
-simpleLightBox(false)
+simpleLightBox(true)
 formstyler(false)
 remodal(true)
 lightslider(false)
@@ -351,6 +351,7 @@ select
   display block
   width 100%
 .form__input
+.form__select
   display block
   width 100%
   height $input-height
@@ -824,66 +825,6 @@ notification(notification = false)
       span 
         // sprite($sprite-information)
         vam( , 0px 20px 0 0)
-    
-
-// Sandwitch and responsive menu
-responsiveMenu(responsiveMenu = false)
-  if responsiveMenu
-    .header__responsive-menu.active
-    .menu.active
-      display block
-    .toggle-menu
-      background: none
-      border none
-      outline none
-      display none
-      height 40px
-      position relative 
-      padding 0px
-      margin 0px
-    .sandwitch
-      width 31px
-      height 31px
-      left 0
-      right 0
-      margin auto
-      z-index 200
-      > span
-        width 31px
-        height 4px
-        background white
-        border none
-        border-radius 0px
-        display block
-        position relative
-    .sw-topper
-      top 5px
-      transition: transform 0.5s, top 0.2s
-      display block 
-    .sw-bottom 
-      top: 10px
-      transition: transform 0.5s, top 0.2s
-      transition-delay: 0.2s, 0s 
-    .sw-footer 
-      top: 15px
-      transition: all 0.5s
-      transition-delay: 0.1s 
-    .toggle-menu.active .sw-topper 
-    .button__sub.active .sw-topper 
-      background color6
-      top: 13px
-      transform: rotate(-45deg) 
-    .toggle-menu.active .sw-bottom 
-    .button__sub.active .sw-bottom 
-      background color6
-      top: 10px
-      transform: rotate(45deg) 
-    .toggle-menu.active .sw-footer 
-    .button__sub.active .sw-footer 
-      background color6
-      opacity: 0
-      top: 0
-      transform: rotate(180deg)
  
 
 // Bread

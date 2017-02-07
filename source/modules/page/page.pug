@@ -13,9 +13,35 @@ mixin page(data)
         +if('header')
           +use('header')
 
+        //- Home content  
         +if('main')
           section.page__main
             +use('main')
+
+        //- Category content
+        +if('category')
+          section.page__category
+            +use('category')
+
+        //- Single content
+        +if('single')
+          section.page__single
+            +use('single')
+
+        //- Gallery content
+        +if('gallery')
+          section.page__gallery
+            +use('gallery')
+
+        //- Contacts content
+        +if('contacts')
+          section.page__contacts
+            +use('contacts')
+
+        //- Registration content
+        +if('registration')
+          section.page__registration
+            +use('registration')
 
         +if('footer')
           +use('footer')

@@ -1,0 +1,40 @@
+mixin contacts(data)
+  .contacts&attributes(attributes)
+    .contacts-wrapper
+      .container
+        .contacts__title Обратная связь
+        .contacts__content
+          p Ответы предоставляются специалистами ресурса в течение одного рабочего дня.
+          p Для эффективной работы с ней нужно всего лишь сделать несколько простых вещей.
+          p <strong>Во-первых</strong>, заполните все пустующие графы: представьтесь и впишите работающий e-mail, укажите тип проблемы (ошибка работы сайта, недостающие возможности, просьба о помощи), а также ее краткое и полное описание.
+          p <strong>Во-вторых</strong>, преодолейте капчу – и все!
+          p Самое главное – это четкое описание возникших трудностей. Уберите все лишнее из вашего сообщения и не увлекайтесь эмоциональными оценками. Саппорт в любом случае работает только для того, чтобы вам помочь. Мы отвечаем на запросы пользователей настолько быстро, насколько это возможно.
+          p Обратите внимание, что ответ на ваш запрос придёт на указанный вами e-mail!
+          .row.contacts__town__row
+            .contacts__town.col_margin
+              strong Для России:
+              span — +7 495 78-888-78 (для Москвы и Московской области);
+              span — 8 800 2000-000 (для регионов).
+            .contacts__town
+              strong Для Украины:
+              span — +7 495 78-888-78 (для Москвы и Московской области);
+              span — 8 800 2000-000 (для регионов).
+        .contacts__form
+          form(action="")
+            .row.contacts__form__row
+              .contacts__form__left.col_margin.col__40
+                label(for="").form__label.form__label_bold Ваше имя и фамилия:
+                  input(type="text").form__input.form__input_contacts
+                label(for="").form__label.form__label_bold E-mail
+                  input(type="text").form__input.form__input_contacts
+                label(for="").form__label.form__label_bold Тип обращения:
+                  select.form__select.form__input_contacts
+                    option(value="что - то") что то
+                    option(value="что - то") что то
+                    option(value="что - то") что то
+                label(for="").form__label.form__label_bold Заголовок обращения:
+                  input(type="text").form__input.form__input_contacts
+              .contacts__form__right.auto__width
+                label(for="").form__label.form__label_bold Подробное описание:
+                  textarea.form__area.form__area_contacts
+

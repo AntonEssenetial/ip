@@ -1,0 +1,60 @@
+.category__slider
+  background: #b2aca2
+  padding 60px 0 40px 0
+  
+  &__top
+    color white 
+    background: black
+    font-size 16px 
+    text-transform uppercase
+    padding 5px 12px
+    position: relative
+    +after('')
+      border-left 10px solid black
+      border-top 0px solid transparent
+      border-bottom 10px solid transparent
+      display: block
+      position: absolute
+      left 0px
+      bottom -10px
+  
+  &__title 
+    font-family $pnova-bold
+    text-transform uppercase
+    margin 30px 0
+    text-decoration: none
+    h1 
+      font-size 30px 
+      color white
+      &:hover 
+        color black
+    
+  &__date 
+    color white
+    text-transform uppercase
+    font-size 14px
+    position: relative
+    +after('')
+      height 1px 
+      width 35px
+      display: block
+      top -7px 
+      position absolute
+      background: white
+      
+.slick-dots
+  display flex
+  width $container-width
+  padding $container-padding
+  margin 0 auto
+  justify-content flex-end
+  button 
+    background: white
+    color transparent
+    height 3px 
+    width 60px
+    margin-left 4px
+    padding 0px
+    
+.slick-active button 
+  background: black
