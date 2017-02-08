@@ -14,7 +14,11 @@
               <div class="header__bottom__right-col auto__width">
                 <div class="row end">
                   <div class="header__bottom__sing-in">
-                    <a class="button button_white" href="registariton.html">Вступить в АПРКС</a>
+	                <?php if (is_user_logged_in()) { ?>
+	                    <a class="button button_white" href="<?php echo wp_logout_url( home_url() ); ?>">Выход</a>
+						<?php } else { ?>            	
+						<a class="button button_white" href="#" data-remodal-target="enter">Вход</a>
+					<?php } ?>
                   </div>
                 </div>
                 <div class="row between header__bottom__row center">

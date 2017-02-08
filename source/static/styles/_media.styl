@@ -1,5 +1,24 @@
 // Media queries, example +width-range(10em, 20em)
++width-max(1920px)
+  .registration-popup_title
+    font-size 30px
+  .registration-popup
+    &-wrapper 
+      absolute-center(400px, 650)
+  .form__input_popup,
+  .button_popup
+    height 50px
+    font-size 18px
+  .icon-1
+    background: image-url('icon4.png') no-repeat left center white
+  .icon-2
+    background: image-url('icon5.png') no-repeat left center white
+  
+
 +width-max($container-width)
+  .registration-popup
+    &-wrapper 
+      absolute-center(50%, 650)
   .container 
   .slick-dots
     width 100%
@@ -86,6 +105,9 @@
 
 // iPad mini
 +width-max(768px)
+  .registration-popup
+    &-wrapper 
+      absolute-center(95%, 530)
   .gallery__item 
     width 50%
   .single__article__title

@@ -49,7 +49,7 @@
               <div class="header__bottom__right-col auto__width">
                 <div class="row end">
                   <div class="header__bottom__sing-in">
-                    <a class="button button_white" href="registariton.html">Вступить в АПРКС</a>
+                    <a class="button button_white" href="#" data-remodal-target="reg">Вступить в АПРКС</a>
                   </div>
                 </div>
                 <div class="row between header__bottom__row center">
@@ -406,7 +406,28 @@
         </div>
       </header>
       <section class="page__registration">
-        <div class="registration"></div>
+        <div class="registration">
+          <div class="registeration-popup">
+            <div class="modal register__modal-wrapper" data-remodal-id="reg">
+              <button class="button_close" data-remodal-action="close"></button>
+              <div class="modal-wrapper">
+                <div class="modal__content">
+                  <div class="registration-popup-wrapper">
+                    <img class="registration-popup_img" src="assets/images/background/logo.png" alt="" />
+                    <h2 class="registration-popup_title">ПРАВАВАЯ ИНФОРМАЦИЯ
+                      <br> У ВАС ПОД РУКОЙ</h2>
+                    <span class="registration-popup_span">Впишите свой email и пароль что бы вступить в АПРКС</span>
+                    <form>
+                      <input class="form__input form__input_popup icon-1" type="text" placeholder="E-mail" />
+                      <input class="form__input form__input_popup icon-2" type="text" placeholder="******" />
+                      <input class="button button_popup" type="submit" value="Зарегистрироваться" /> </form>
+                    <button class="no" data-remodal-action="close">Нет спасибо</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <footer class="footer">
         <div class="footer__top">

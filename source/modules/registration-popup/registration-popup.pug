@@ -1,0 +1,14 @@
+include ../modals/modals
+
+mixin registration-popup(data)
+  .registeration-popup&attributes(attributes)
+    +modal({"id": "reg", "close": true}).register__modal-wrapper
+      .registration-popup-wrapper
+        img(src="assets/images/background/logo.png", alt="").registration-popup_img
+        h2.registration-popup_title ПРАВАВАЯ ИНФОРМАЦИЯ <br> У ВАС ПОД РУКОЙ
+        span.registration-popup_span Впишите свой email и пароль что бы вступить в АПРКС
+        form()
+          input(type="text" placeholder='E-mail').form__input.form__input_popup.icon-1
+          input(type="text" placeholder='******').form__input.form__input_popup.icon-2
+          input(type="submit" value='Зарегистрироваться').button.button_popup
+        button.no(data-remodal-action="close") Нет спасибо

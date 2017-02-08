@@ -23,10 +23,10 @@
 	// Sidebars
 	if (function_exists('register_sidebars')) 
 		register_sidebar( array('name' => 'Sidebar',
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-	'after_widget'  => '</div>',
-	'before_title'  => '<p class="widgettitle">',
-	'after_title'   => '</p>' ));
+		'before_widget' => '',
+	    'after_widget'  => '',
+	    'before_title'  => '',
+	    'after_title'   => '' ));
 	
 	
 	// Excerpt length
@@ -232,4 +232,5 @@
     return ob_get_clean();
 	}
 	
+	require_once( get_template_directory() . '/libs/custom-ajax-auth.php' );
 ?>

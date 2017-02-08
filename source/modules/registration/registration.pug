@@ -1,3 +1,5 @@
+include ../registration-popup/registration-popup
+
 mixin registration(data)
-	.registration&attributes(attributes)
-		
+  .registration&attributes(attributes)
+    +registration-popup()
